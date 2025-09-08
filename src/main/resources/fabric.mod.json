@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "lazypathways",
+  "version": "${version}",
+  "name": "Lazy Pathways",
+  "description": "Lazily creates beautiful pathways as you walk on grass blocks.",
+  "authors": [
+    "lebonq"
+  ],
+  "contributors": [],
+  "contact": {
+    "sources": "https://github.com/lebonq/Automatic-Path",
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/automatic-path",
+    "issues": "https://github.com/lebonq/Automatic-Path/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/lazypathways/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "fr.lebon.lazypathways.LazyPathways"
+    ],
+    "client": [
+      "fr.lebon.lazypathways.LazyPathwaysClient"
+    ],
+    "server": [],
+    "modmenu": [
+      "fr.lebon.lazypathways.config.LazyPathwaysConfigMenu"
+  ]
+  },
+  "mixins": [
+    "lazypathways.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "fabric": "*",
+    "minecraft": ">=1.21.1",
+    "java": ">=21"
+  }
+}

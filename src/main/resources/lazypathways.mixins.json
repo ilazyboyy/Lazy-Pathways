@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "fr.lebon.lazypathways.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "PathBlockPlant",
+    "BlockOnStepped",
+    "PathBlockSugarCane",
+    "PathBlockSapling",
+    "HoeMixin",
+    "EatGoalCanStart"
+  ],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
