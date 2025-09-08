@@ -5,7 +5,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import fr.lebon.lazypathways.AutoPath;
+import fr.lebon.lazypathways.LazyPathways;
 import fr.lebon.lazypathways.blocks.PathBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.PlantBlock;
@@ -18,7 +18,7 @@ import net.minecraft.world.BlockView;
  * Permet de mettre de la grass, fleurs sur les chemins de state 3 ou plus bas
  */
 public class PathBlockPlant {
-	@Inject(method = "canPlantOnTop", cancellable = true, at = @At(value = "HEAD"))
+        @Inject(method = "canPlantOnTop", cancellable = true, at = @At(value = "HEAD"))
     private void makePathPlantable(BlockState floor, BlockView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
         if (floor.isOf(LazyPathways.PATH_BLOCK)) {
             if(floor.get(PathBlock.STATE_RENDER) <=3){

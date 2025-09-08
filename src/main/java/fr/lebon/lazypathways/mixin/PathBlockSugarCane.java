@@ -8,7 +8,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import fr.lebon.lazypathways.AutoPath;
+import fr.lebon.lazypathways.LazyPathways;
 import fr.lebon.lazypathways.blocks.PathBlock;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.registry.tag.FluidTags;
@@ -22,7 +22,7 @@ import net.minecraft.world.WorldView;
  * Permet de placer les cannes a sucre sur les chemins du state 3 ou plus bas
  */
 public class PathBlockSugarCane {
-	@Inject(method = "canPlaceAt", at = @At("TAIL"), cancellable = true)
+        @Inject(method = "canPlaceAt", at = @At("TAIL"), cancellable = true)
     private void test(BlockState state, WorldView world, BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
         BlockState blockState = world.getBlockState(pos.down());
         boolean trigger = false;

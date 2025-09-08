@@ -1,5 +1,5 @@
 {
     "variants": {
-      "": { "model": "autopath:block/lawn" }
+      "": { "model": "lazypathways:block/lawn" }
     }
   }

@@ -4,7 +4,7 @@
         "bottom": "minecraft:block/dirt",
         "top": "minecraft:block/grass_block_top",
         "side": "minecraft:block/dirt",
-        "top_overlay": "autopath:block/path_level_4"
+        "top_overlay": "lazypathways:block/path_level_4"
     },
     "elements": [
         {   "from": [ 0, 0, 0 ],

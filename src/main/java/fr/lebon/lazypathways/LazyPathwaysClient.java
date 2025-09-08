@@ -14,11 +14,11 @@ public class LazyPathwaysClient implements ClientModInitializer{
     @Override
     public void onInitializeClient() {
         LazyPathways.log(Level.INFO, "Client initialize");
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> ColorProvider.getColor(view, pos), LazyPathways.PATH_BLOCK);
-        ColorProviderRegistry.BLOCK.register((state, view, pos, tintIndex) -> 0x5E9D34, LazyPathways.LAWN_BLOCK);
+        ColorProviderRegistry.BLOCK.register(ColorProvider::getPathColor, LazyPathways.PATH_BLOCK);
+        ColorProviderRegistry.BLOCK.register(ColorProvider::getLawnColor, LazyPathways.LAWN_BLOCK);
 
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x5E9D34, LazyPathways.LAWN_ITEM);
-        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x5E9D34, LazyPathways.PATH_BLOCK);
+        ColorProviderRegistry.ITEM.register((stack, tintIndex) -> 0x5E9D34, LazyPathways.PATH_ITEM);
 
         BlockRenderLayerMap.INSTANCE.putBlock(LazyPathways.PATH_BLOCK, RenderLayer.getCutout());//For transparancy
         BlockRenderLayerMap.INSTANCE.putBlock(LazyPathways.LAWN_BLOCK, RenderLayer.getCutout());

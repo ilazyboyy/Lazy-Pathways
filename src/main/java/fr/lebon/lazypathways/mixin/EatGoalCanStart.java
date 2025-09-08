@@ -9,7 +9,7 @@ import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
-import fr.lebon.lazypathways.AutoPath;
+import fr.lebon.lazypathways.LazyPathways;
 import fr.lebon.lazypathways.blocks.PathBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -23,28 +23,28 @@ import net.minecraft.world.World;
 @Mixin(EatGrassGoal.class)
 public class EatGoalCanStart {
     @Final
-	@Mutable
-	@Shadow
-	private MobEntity mob;
+        @Mutable
+        @Shadow
+        private MobEntity mob;
     @Final
-	@Mutable
-	@Shadow
-	private World world;
+        @Mutable
+        @Shadow
+        private World world;
     @Final
-	@Mutable
-	@Shadow
-	private int timer;
+        @Mutable
+        @Shadow
+        private int timer;
 
-	@Inject(method = "canStart", cancellable = true, at = @At(value = "TAIL"))
+        @Inject(method = "canStart", cancellable = true, at = @At(value = "TAIL"))
     private void canStart(CallbackInfoReturnable<Boolean> cir) {
 
         BlockPos blockPosAutoPath = this.mob.getBlockPos();
-        if(this.world.getBlockState(blockPosLazyPathways.down()).isOf(LazyPathways.LAWN_BLOCK)){
+        if(this.world.getBlockState(blockPosAutoPath.down()).isOf(LazyPathways.LAWN_BLOCK)){
             cir.setReturnValue(true);
             cir.cancel();
         }
-        if (this.world.getBlockState(blockPosLazyPathways.down()).isOf(LazyPathways.PATH_BLOCK)) {
-            if(this.world.getBlockState(blockPosLazyPathways.down()).get(PathBlock.STATE_RENDER) > 3){
+        if (this.world.getBlockState(blockPosAutoPath.down()).isOf(LazyPathways.PATH_BLOCK)) {
+            if(this.world.getBlockState(blockPosAutoPath.down()).get(PathBlock.STATE_RENDER) > 3){
                 cir.setReturnValue(false);
                 cir.cancel();
             }

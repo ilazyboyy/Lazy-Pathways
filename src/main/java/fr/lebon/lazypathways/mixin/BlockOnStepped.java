@@ -12,7 +12,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
-import fr.lebon.lazypathways.AutoPath;
+import fr.lebon.lazypathways.LazyPathways;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -23,7 +23,7 @@ import net.minecraft.world.World;
 
 @Mixin(Block.class)
 public class BlockOnStepped {
-	@Inject(method = "onSteppedOn", cancellable = true, at = @At(value = "HEAD"))
+        @Inject(method = "onSteppedOn", cancellable = true, at = @At(value = "HEAD"))
     private void transformGrassToPathWhenSteppedOn(World world, BlockPos pos, BlockState state, Entity entity,CallbackInfo cir) {
         LazyPathwaysConfig config = AutoConfig.getConfigHolder(LazyPathwaysConfig.class).getConfig();
         boolean mob = config.enableMobPathCreation;

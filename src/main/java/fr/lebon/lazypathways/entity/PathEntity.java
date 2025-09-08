@@ -1,6 +1,6 @@
 package fr.lebon.lazypathways.entity;
 
-import fr.lebon.lazypathways.AutoPath;
+import fr.lebon.lazypathways.LazyPathways;
 import fr.lebon.lazypathways.config.LazyPathwaysConfig;
 import fr.lebon.lazypathways.blocks.PathBlock;
 import me.shedaniel.autoconfig.AutoConfig;

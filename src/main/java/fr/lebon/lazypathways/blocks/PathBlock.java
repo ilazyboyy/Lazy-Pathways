@@ -2,7 +2,7 @@ package fr.lebon.lazypathways.blocks;
 
 import java.util.Random;
 
-import fr.lebon.lazypathways.AutoPath;
+import fr.lebon.lazypathways.LazyPathways;
 import fr.lebon.lazypathways.entity.PathEntity;
 import fr.lebon.lazypathways.util.GrowRoutineGrassBlock;
 import net.minecraft.block.*;
