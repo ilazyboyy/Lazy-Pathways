@@ -37,5 +37,8 @@
     "fabric": "*",
     "minecraft": ">=1.21.1",
     "java": ">=21"
+  },
+  "suggests": {
+    "continuity": ">=3.0.0"
   }
 }

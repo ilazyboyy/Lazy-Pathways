@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	fr/lebon/lazypathways/mixin/EatGoalCanStart	Lnet/minecraft/entity/mob/MobEntity;	mob	field_6424
+FIELD	fr/lebon/lazypathways/mixin/EatGoalCanStart	Lnet/minecraft/world/World;	world	field_6421
+FIELD	fr/lebon/lazypathways/mixin/EatGoalCanStart	I	timer	field_6422

@@ -1,0 +1,21 @@
+{
+    "block.lazypathways.path": "Path",
+    "block.lazypathways.lawn": "Lawn",
+    "text.autoconfig.lazypathways.title" : "Lazy Pathways Settings",
+    "text.autoconfig.lazypathways.option.enableMobPathCreation" : "Enable Mob Path Creation",
+    "text.autoconfig.lazypathways.option.enableMobPathCreation.@Tooltip" : "If enabled, mobs (monsters and animals) will create paths when walking on grass.",
+    "text.autoconfig.lazypathways.option.downgradeTime" : "Downgrade Time",
+    "text.autoconfig.lazypathways.option.downgradeTime.@Tooltip" : "Time in seconds before paths start reverting back to grass (default: 760 seconds).",
+    "text.autoconfig.lazypathways.option.upgradeTime" : "Upgrade Time",
+    "text.autoconfig.lazypathways.option.upgradeTime.@Tooltip" : "Time in seconds before stepped paths upgrade to the next wear level (default: 280 seconds).",
+    "text.autoconfig.lazypathways.option.permanentPath" : "Permanent Paths",
+    "text.autoconfig.lazypathways.option.permanentPath.@Tooltip" : "Enable paths to become permanent after sufficient use.",
+    "text.autoconfig.lazypathways.option.steppedBeforePermanent" : "Steps Until Permanent",
+    "text.autoconfig.lazypathways.option.steppedBeforePermanent.@Tooltip" : "Number of times a path must be stepped on before becoming permanent (default: 12).",
+    "text.autoconfig.lazypathways.option.permanentAsDirtPath" : "Permanent as Vanilla Path",
+    "text.autoconfig.lazypathways.option.permanentAsDirtPath.@Tooltip" : "Convert permanent paths into vanilla dirt path blocks instead of keeping them as custom paths.",
+    "text.autoconfig.lazypathways.option.enableTextureBlending" : "Enable Texture Blending",
+    "text.autoconfig.lazypathways.option.enableTextureBlending.@Tooltip" : "Blend path colors with neighboring blocks for seamless integration with terrain.",
+    "text.autoconfig.lazypathways.option.blendingIntensity" : "Blending Intensity",
+    "text.autoconfig.lazypathways.option.blendingIntensity.@Tooltip" : "How strongly path colors blend with neighbors (0.1 = subtle, 1.0 = strong blending)."
+}

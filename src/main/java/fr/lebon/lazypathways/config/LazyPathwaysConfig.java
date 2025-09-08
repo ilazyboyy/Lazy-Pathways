@@ -19,4 +19,8 @@ public class LazyPathwaysConfig implements ConfigData {
     public int steppedBeforePermanent = 12;
     @ConfigEntry.Gui.Tooltip()
     public boolean permanentAsDirtPath = false;
+    @ConfigEntry.Gui.Tooltip()
+    public boolean enableTextureBlending = true;
+    @ConfigEntry.Gui.Tooltip()
+    public float blendingIntensity = 0.4f;
 }

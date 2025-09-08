@@ -9,11 +9,11 @@ import net.minecraft.block.*;
 import net.minecraft.block.entity.*;
 import net.minecraft.entity.Entity;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.state.StateManager;
 import net.minecraft.state.property.BooleanProperty;
 import net.minecraft.state.property.IntProperty;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
 import com.mojang.serialization.MapCodec;
@@ -25,6 +25,8 @@ public class PathBlock extends BlockWithEntity implements BlockEntityProvider, F
 
     public static final IntProperty STATE_RENDER = IntProperty.of("state_render",1,5);
     public static final BooleanProperty STEPPED = BooleanProperty.of("stepped");
+    
+    
 
     /** setBlockState() flags that won't activate observers (and skips unnecessary lighting updates) */
     public static final int SKIP_ALL_NEIGHBOR_AND_LIGHTING_UPDATES = Block.NOTIFY_LISTENERS | Block.FORCE_STATE;
@@ -88,6 +90,22 @@ public class PathBlock extends BlockWithEntity implements BlockEntityProvider, F
     @Override
     public void grow(ServerWorld world, net.minecraft.util.math.random.Random random, BlockPos pos, BlockState state) {
         GrowRoutineGrassBlock.grow(world, random, pos, state, this);
+    }
+    
+    @Override
+    public BlockSoundGroup getSoundGroup(BlockState state) {
+        // Get the path level (1-5)
+        int pathLevel = state.get(STATE_RENDER);
+        
+        // Gradually transition from grass to mud based on path level
+        switch (pathLevel) {
+            case 1: return BlockSoundGroup.GRASS;           // Fresh path - still grassy
+            case 2: return BlockSoundGroup.ROOTED_DIRT;     // Slightly more solid
+            case 3: return BlockSoundGroup.PACKED_MUD;      // Getting compacted
+            case 4: return BlockSoundGroup.MUD;             // Well-worn and muddy
+            case 5: return BlockSoundGroup.MUD;             // Very worn, muddy
+            default: return BlockSoundGroup.GRASS;
+        }
     }
 
 }

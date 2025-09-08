@@ -1,0 +1,46 @@
+{
+  "mappings": {
+    "fr/lebon/lazypathways/mixin/BlockOnStepped": {
+      "onSteppedOn": "Lnet/minecraft/class_2248;method_9591(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1297;)V"
+    },
+    "fr/lebon/lazypathways/mixin/EatGoalCanStart": {
+      "canStart": "Lnet/minecraft/class_1345;method_6264()Z",
+      "tick": "Lnet/minecraft/class_1345;method_6268()V"
+    },
+    "fr/lebon/lazypathways/mixin/HoeMixin": {
+      "useOnBlock": "Lnet/minecraft/class_1794;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+    },
+    "fr/lebon/lazypathways/mixin/PathBlockPlant": {
+      "canPlantOnTop": "Lnet/minecraft/class_2261;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+    },
+    "fr/lebon/lazypathways/mixin/PathBlockSapling": {
+      "isSoil(Lnet/minecraft/block/BlockState;)Z": "Lnet/minecraft/class_3031;method_23396(Lnet/minecraft/class_2680;)Z"
+    },
+    "fr/lebon/lazypathways/mixin/PathBlockSugarCane": {
+      "canPlaceAt": "Lnet/minecraft/class_2523;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "fr/lebon/lazypathways/mixin/BlockOnStepped": {
+        "onSteppedOn": "Lnet/minecraft/class_2248;method_9591(Lnet/minecraft/class_1937;Lnet/minecraft/class_2338;Lnet/minecraft/class_2680;Lnet/minecraft/class_1297;)V"
+      },
+      "fr/lebon/lazypathways/mixin/EatGoalCanStart": {
+        "canStart": "Lnet/minecraft/class_1345;method_6264()Z",
+        "tick": "Lnet/minecraft/class_1345;method_6268()V"
+      },
+      "fr/lebon/lazypathways/mixin/HoeMixin": {
+        "useOnBlock": "Lnet/minecraft/class_1794;method_7884(Lnet/minecraft/class_1838;)Lnet/minecraft/class_1269;"
+      },
+      "fr/lebon/lazypathways/mixin/PathBlockPlant": {
+        "canPlantOnTop": "Lnet/minecraft/class_2261;method_9695(Lnet/minecraft/class_2680;Lnet/minecraft/class_1922;Lnet/minecraft/class_2338;)Z"
+      },
+      "fr/lebon/lazypathways/mixin/PathBlockSapling": {
+        "isSoil(Lnet/minecraft/block/BlockState;)Z": "Lnet/minecraft/class_3031;method_23396(Lnet/minecraft/class_2680;)Z"
+      },
+      "fr/lebon/lazypathways/mixin/PathBlockSugarCane": {
+        "canPlaceAt": "Lnet/minecraft/class_2523;method_9558(Lnet/minecraft/class_2680;Lnet/minecraft/class_4538;Lnet/minecraft/class_2338;)Z"
+      }
+    }
+  }
+}

@@ -6,6 +6,7 @@ import fr.lebon.lazypathways.util.ColorProvider;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
+import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
 import net.minecraft.client.color.world.BiomeColors;
 import net.minecraft.client.render.RenderLayer;
 
@@ -22,6 +23,9 @@ public class LazyPathwaysClient implements ClientModInitializer{
 
         BlockRenderLayerMap.INSTANCE.putBlock(LazyPathways.PATH_BLOCK, RenderLayer.getCutout());//For transparancy
         BlockRenderLayerMap.INSTANCE.putBlock(LazyPathways.LAWN_BLOCK, RenderLayer.getCutout());
+        
+        // Clear color cache when world changes to prevent memory leaks
+        ClientLifecycleEvents.CLIENT_STOPPING.register(client -> ColorProvider.clearCache());
     }
     
 }

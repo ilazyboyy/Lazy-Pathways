@@ -108,6 +108,7 @@ curseforge {
         requiredDependency 'fabric-api' // API is required
         embeddedLibrary 'cloth-config' 
                 optionalDependency 'modmenu'
+                optionalDependency 'continuity' // For enhanced connected textures
            }
     }
   }

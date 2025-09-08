@@ -1,0 +1,4 @@
+/tick rate 2500
+/time set day
+/tick rate 2500
+/tick rate 5000

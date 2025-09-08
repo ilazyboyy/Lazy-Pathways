@@ -32,7 +32,7 @@ public class LazyPathways implements ModInitializer{
         public static final String MOD_ID = "lazypathways";
         public static final String MOD_NAME = "Lazy Pathways";
 
-        public static final Block PATH_BLOCK = new PathBlock(FabricBlockSettings.create().mapColor(MapColor.DIRT_BROWN).pistonBehavior(PistonBehavior.DESTROY).hardness(0.5f).sounds(BlockSoundGroup.GRASS));
+    public static final Block PATH_BLOCK = new PathBlock(FabricBlockSettings.create().mapColor(MapColor.DIRT_BROWN).pistonBehavior(PistonBehavior.DESTROY).hardness(0.5f).sounds(BlockSoundGroup.GRASS));
         public static final Block LAWN_BLOCK = new LawnBlock(FabricBlockSettings.create().mapColor(MapColor.DIRT_BROWN).pistonBehavior(PistonBehavior.DESTROY).hardness(0.5f).sounds(BlockSoundGroup.GRASS));
 
         public static final BlockItem LAWN_ITEM = new BlockItem(LAWN_BLOCK, new Item.Settings());

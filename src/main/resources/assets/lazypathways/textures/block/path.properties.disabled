@@ -1,0 +1,14 @@
+# Continuity Connected Textures for Lazy Pathways
+# Simple horizontal connection method - paths connect to each other
+
+# Apply to path blocks
+matchBlocks=lazypathways:path
+
+# Use horizontal connection method (simpler, requires fewer textures)
+method=horizontal
+
+# Use the base path texture (no additional CTM textures needed)
+tiles=0
+
+# Connect path blocks to each other for seamless networks
+connectBlocks=lazypathways:path
