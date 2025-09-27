@@ -18,21 +18,201 @@
         "y": 270
       }
     ],
-    "state_render=1,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=1,stepped=false,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 270
       }
     ],
@@ -54,21 +234,57 @@
         "y": 270
       }
     ],
-    "state_render=1,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=1,stepped=false,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
         "y": 270
       }
     ],
@@ -108,21 +324,201 @@
         "y": 270
       }
     ],
-    "state_render=1,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=1,stepped=true,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_1_surrounded",
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_vertical",
         "y": 270
       }
     ],
@@ -144,21 +540,57 @@
         "y": 270
       }
     ],
-    "state_render=1,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=1,stepped=true,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_1_vertical",
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=1,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_1_surrounded",
         "y": 270
       }
     ],
@@ -198,21 +630,201 @@
         "y": 270
       }
     ],
-    "state_render=2,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=2,stepped=false,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 270
       }
     ],
@@ -234,21 +846,57 @@
         "y": 270
       }
     ],
-    "state_render=2,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=2,stepped=false,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
         "y": 270
       }
     ],
@@ -288,21 +936,201 @@
         "y": 270
       }
     ],
-    "state_render=2,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=2,stepped=true,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_2_surrounded",
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_vertical",
         "y": 270
       }
     ],
@@ -324,21 +1152,57 @@
         "y": 270
       }
     ],
-    "state_render=2,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=2,stepped=true,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_2_vertical",
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=2,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_2_surrounded",
         "y": 270
       }
     ],
@@ -378,21 +1242,201 @@
         "y": 270
       }
     ],
-    "state_render=3,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=3,stepped=false,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 270
       }
     ],
@@ -414,21 +1458,57 @@
         "y": 270
       }
     ],
-    "state_render=3,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=3,stepped=false,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
         "y": 270
       }
     ],
@@ -468,21 +1548,201 @@
         "y": 270
       }
     ],
-    "state_render=3,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=3,stepped=true,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_3_surrounded",
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_vertical",
         "y": 270
       }
     ],
@@ -504,21 +1764,57 @@
         "y": 270
       }
     ],
-    "state_render=3,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=3,stepped=true,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_3_vertical",
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=3,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_3_surrounded",
         "y": 270
       }
     ],
@@ -558,21 +1854,201 @@
         "y": 270
       }
     ],
-    "state_render=4,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=4,stepped=false,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 270
       }
     ],
@@ -594,21 +2070,57 @@
         "y": 270
       }
     ],
-    "state_render=4,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=4,stepped=false,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
         "y": 270
       }
     ],
@@ -648,21 +2160,201 @@
         "y": 270
       }
     ],
-    "state_render=4,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=4,stepped=true,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_4_surrounded",
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_vertical",
         "y": 270
       }
     ],
@@ -684,21 +2376,57 @@
         "y": 270
       }
     ],
-    "state_render=4,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=4,stepped=true,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_4_vertical",
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=4,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_4_surrounded",
         "y": 270
       }
     ],
@@ -738,21 +2466,201 @@
         "y": 270
       }
     ],
-    "state_render=5,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=5,stepped=false,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 270
       }
     ],
@@ -774,21 +2682,57 @@
         "y": 270
       }
     ],
-    "state_render=5,stepped=false,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=5,stepped=false,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=false,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
         "y": 270
       }
     ],
@@ -828,21 +2772,201 @@
         "y": 270
       }
     ],
-    "state_render=5,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+    "state_render=5,stepped=true,grass_north=false,grass_south=false,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_5_surrounded",
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=false,grass_south=true,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=false,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=true,grass_south=false,grass_east=false,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=true,grass_south=false,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_vertical",
         "y": 270
       }
     ],
@@ -864,21 +2988,57 @@
         "y": 270
       }
     ],
-    "state_render=5,stepped=true,grass_north=false,grass_south=false,grass_east=true,grass_west=true": [
+    "state_render=5,stepped=true,grass_north=true,grass_south=true,grass_east=false,grass_west=true": [
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
         "y": 0
       },
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
         "y": 90
       },
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
         "y": 180
       },
       {
-        "model": "lazypathways:block/path_level_5_vertical",
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=false": [
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_horizontal",
+        "y": 270
+      }
+    ],
+    "state_render=5,stepped=true,grass_north=true,grass_south=true,grass_east=true,grass_west=true": [
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
+        "y": 0
+      },
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
+        "y": 90
+      },
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
+        "y": 180
+      },
+      {
+        "model": "lazypathways:block/path_level_5_surrounded",
         "y": 270
       }
     ],
