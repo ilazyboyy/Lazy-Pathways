@@ -9,11 +9,15 @@ public class ColorProvider {
     
     public static int getPathColor(BlockState state, BlockRenderView view, BlockPos pos, int tintIndex){
         if (view == null || pos == null) {
-            return 0x7CB342; // Default grass green as fallback
+            return tintIndex == 0 ? 0x7CB342 : 0xFFFFFF; // Default grass green for grass parts, white for dirt
         }
         
-        // Use the biome's grass color but don't do complex blending or level-based changes
-        return BiomeColors.getGrassColor(view, pos);
+        // Only tint grass parts (tintIndex 0), leave dirt parts natural (tintIndex 1+)
+        if (tintIndex == 0) {
+            return BiomeColors.getGrassColor(view, pos); // Grass color for grass elements
+        } else {
+            return 0xFFFFFF; // No tint for dirt elements
+        }
     }
     
     public static int getLawnColor(BlockState state, BlockRenderView view, BlockPos pos, int tintIndex){
