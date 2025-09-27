@@ -25,7 +25,7 @@ def main():
                     if e: suffix_parts.append('e')
                     if w: suffix_parts.append('w')
                     
-                    suffix = '_'.join(suffix_parts) if suffix_parts else 'none'
+                    suffix = ''.join(suffix_parts) if suffix_parts else 'none'
                     
                     neighbor_mappings.append({
                         'north': n, 'south': s, 'east': e, 'west': w,

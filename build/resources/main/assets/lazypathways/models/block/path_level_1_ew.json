@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/grass_path",
+  "textures": {
+    "particle": "lazypathways:block/path_level_1_ew",
+    "top": "lazypathways:block/path_level_1_ew",
+    "bottom": "minecraft:block/dirt"
+  }
+}
