@@ -6,7 +6,7 @@
     "top": "minecraft:block/grass_block_top",
     "side": "minecraft:block/grass_block_side",
     "overlay": "minecraft:block/grass_block_side_overlay",
-    "top_overlay": "lazypathways:block/path_level_5_none"
+    "top_overlay": "lazypathways:block/path_level_5_standalone"
   },
   "elements": [
     {
