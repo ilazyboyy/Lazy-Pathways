@@ -44,12 +44,25 @@ def main():
             texture_name = f"path_level_{level}_{suffix}"
             
             model_data = {
-                "parent": "minecraft:block/grass_path",
+                "parent": "block/block",
                 "textures": {
                     "particle": f"lazypathways:block/{texture_name}",
                     "top": f"lazypathways:block/{texture_name}",
-                    "bottom": "minecraft:block/dirt"
-                }
+                    "bottom": "minecraft:block/dirt",
+                    "side": "minecraft:block/dirt"
+                },
+                "elements": [{
+                    "from": [0, 0, 0],
+                    "to": [16, 15, 16],
+                    "faces": {
+                        "down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"},
+                        "up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
+                        "north": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "north"},
+                        "south": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "south"},
+                        "west": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "west"},
+                        "east": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "east"}
+                    }
+                }]
             }
             
             model_path = os.path.join(models_dir, f"{model_name}.json")

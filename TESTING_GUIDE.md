@@ -71,7 +71,23 @@ Test 4 - Fully Surrounded:
 - **Test with different grass types** if mod supports biome grass
 - **Test corner cases** like paths in water, lava, or other non-grass blocks
 
-## Current Status
-✅ **Ready for in-game testing!**
+## Fixed Issues
+🔧 **Fixed Pink/Black Texture Problem:**
+- **Problem:** Model files were using invalid parent model `minecraft:block/grass_path`
+- **Solution:** Updated to use `block/block` parent with custom geometry definition
+- **Result:** All model files now have proper geometry and texture references
 
-The complete system is implemented and builds successfully. All texture variants, models, and blockstates are generated and should work together to create smooth grass-edge blending based on neighboring grass blocks.
+✅ **Model-Texture Naming Alignment:**
+- Fixed naming mismatch between model files and texture files
+- All 80 model files now correctly reference their corresponding textures
+- Verified all files are properly packaged in the built mod JAR
+
+## Current Status
+✅ **FIXED - Ready for in-game testing!**
+
+The pink/black texture issue has been resolved. The complete system is implemented and builds successfully. All texture variants, models, and blockstates are generated and should work together to create smooth grass-edge blending based on neighboring grass blocks.
+
+**What Changed:**
+- Models now use proper `block/block` parent with custom path-like geometry
+- Path blocks are slightly shorter (15 pixels high) like vanilla grass paths
+- All texture references are correctly aligned between models and actual texture files
