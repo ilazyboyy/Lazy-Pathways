@@ -46,23 +46,38 @@ def main():
             model_data = {
                 "parent": "block/block",
                 "textures": {
-                    "particle": f"lazypathways:block/{texture_name}",
-                    "top": f"lazypathways:block/{texture_name}",
+                    "particle": "minecraft:block/dirt",
                     "bottom": "minecraft:block/dirt",
-                    "side": "minecraft:block/dirt"
+                    "top": "minecraft:block/grass_block_top",
+                    "side": "minecraft:block/grass_block_side",
+                    "overlay": "minecraft:block/grass_block_side_overlay",
+                    "top_overlay": f"lazypathways:block/{texture_name}"
                 },
-                "elements": [{
-                    "from": [0, 0, 0],
-                    "to": [16, 15, 16],
-                    "faces": {
-                        "down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"},
-                        "up": {"uv": [0, 0, 16, 16], "texture": "#top", "cullface": "up"},
-                        "north": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "north"},
-                        "south": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "south"},
-                        "west": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "west"},
-                        "east": {"uv": [0, 1, 16, 16], "texture": "#side", "cullface": "east"}
+                "elements": [
+                    {
+                        "from": [0, 0, 0],
+                        "to": [16, 16, 16],
+                        "faces": {
+                            "down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"},
+                            "up": {"uv": [0, 0, 16, 16], "texture": "#top", "tintindex": 0, "cullface": "up"},
+                            "north": {"uv": [0, 0, 16, 16], "texture": "#side", "tintindex": 0, "cullface": "north"},
+                            "south": {"uv": [0, 0, 16, 16], "texture": "#side", "tintindex": 0, "cullface": "south"},
+                            "west": {"uv": [0, 0, 16, 16], "texture": "#side", "tintindex": 0, "cullface": "west"},
+                            "east": {"uv": [0, 0, 16, 16], "texture": "#side", "tintindex": 0, "cullface": "east"}
+                        }
+                    },
+                    {
+                        "from": [0, 0, 0],
+                        "to": [16, 16, 16],
+                        "faces": {
+                            "up": {"uv": [0, 0, 16, 16], "texture": "#top_overlay", "cullface": "up"},
+                            "north": {"uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "north"},
+                            "south": {"uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "south"},
+                            "west": {"uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "west"},
+                            "east": {"uv": [0, 0, 16, 16], "texture": "#overlay", "tintindex": 0, "cullface": "east"}
+                        }
                     }
-                }]
+                ]
             }
             
             model_path = os.path.join(models_dir, f"{model_name}.json")
